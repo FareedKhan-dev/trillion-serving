@@ -1,0 +1,50 @@
+{
+ "_note": "Real facts the prose quotes, each with its source and the exact quote (notes/facts_log.md has the full log). Never provisional.",
+ "k3": {
+  "params_t": {"v": 2.78, "provisional": false, "src": "https://huggingface.co/api/models/moonshotai/Kimi-K3", "quote": "\"total\": 2779931837184"},
+  "active_b": {"v": 104.2, "provisional": false, "src": "https://huggingface.co/moonshotai/Kimi-K3", "quote": "Activated Parameters: 104B"},
+  "layers": {"v": 93, "provisional": false, "src": "https://huggingface.co/moonshotai/Kimi-K3", "quote": "Number of Layers: 93"},
+  "kda": {"v": 69, "provisional": false, "src": "https://huggingface.co/moonshotai/Kimi-K3", "quote": "69 KDA + 24 Gated MLA"},
+  "mla": {"v": 24, "provisional": false, "src": "https://huggingface.co/moonshotai/Kimi-K3", "quote": "69 KDA + 24 Gated MLA"},
+  "blocks": {"v": 23, "provisional": false, "src": "https://huggingface.co/moonshotai/Kimi-K3/blob/main/config.json", "quote": "full_attn_layers (24, all MLA): 4,8,12,...,88,92,93"},
+  "experts": {"v": 896, "provisional": false, "src": "https://huggingface.co/moonshotai/Kimi-K3", "quote": "Number of Experts: 896"},
+  "top_k": {"v": 16, "provisional": false, "src": "https://huggingface.co/moonshotai/Kimi-K3", "quote": "Selected Experts per Token: 16"},
+  "context": {"v": 1048576, "provisional": false, "src": "https://huggingface.co/moonshotai/Kimi-K3", "quote": "Context Length: 1048576"},
+  "shards": {"v": 96, "provisional": false, "src": "https://huggingface.co/api/models/moonshotai/Kimi-K3?blobs=true", "quote": "model-00001-of-000096.safetensors"},
+  "shard1_bytes": {"v": 2341216112, "provisional": false, "src": "https://huggingface.co/api/models/moonshotai/Kimi-K3?blobs=true (copied in ../kimi-k3-c/scripts/shard_sizes.txt)", "quote": "model-00001-of-000096.safetensors 2341216112"},
+  "shard2_bytes": {"v": 16990911504, "provisional": false, "src": "https://huggingface.co/api/models/moonshotai/Kimi-K3?blobs=true (copied in ../kimi-k3-c/scripts/shard_sizes.txt)", "quote": "model-00002-of-000096.safetensors 16990911504"},
+  "shard3_bytes": {"v": 16990911504, "provisional": false, "src": "https://huggingface.co/api/models/moonshotai/Kimi-K3?blobs=true (copied in ../kimi-k3-c/scripts/shard_sizes.txt)", "quote": "model-00003-of-000096.safetensors 16990911504"},
+  "shard4_bytes": {"v": 16567501776, "provisional": false, "src": "https://huggingface.co/api/models/moonshotai/Kimi-K3?blobs=true (copied in ../kimi-k3-c/scripts/shard_sizes.txt)", "quote": "model-00004-of-000096.safetensors 16567501776"},
+  "checkpoint_bytes": {"v": 1560936091448, "provisional": false, "src": "https://huggingface.co/api/models/moonshotai/Kimi-K3?blobs=true", "quote": "1,560,936,091,448 bytes"},
+  "prefix_k": {"v": 400, "provisional": false, "src": "https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf", "quote": "a typical coding input carries a prefix of 400K tokens but requires a prefill increment of only 4K tokens"},
+  "increment_k": {"v": 4, "provisional": false, "src": "https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf", "quote": "a prefill increment of only 4K tokens"},
+  "hash_block": {"v": 512, "provisional": false, "src": "https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf", "quote": "fine hash blocks (e.g., 512 tokens)"}
+ },
+ "gb300": {
+  "gpus": {"v": 72, "provisional": false, "src": "https://www.nvidia.com/en-us/data-center/gb300-nvl72/", "quote": "72 NVIDIA Blackwell Ultra GPUs, 36 NVIDIA Grace CPUs"},
+  "grace": {"v": 36, "provisional": false, "src": "https://www.nvidia.com/en-us/data-center/gb300-nvl72/", "quote": "36 NVIDIA Grace CPUs"},
+  "trays": {"v": 18, "provisional": false, "src": "https://www.nvidia.com/en-us/data-center/gb300-nvl72/", "quote": "18 trays of 4 GPUs and 2 Grace CPUs"},
+  "hbm_gb": {"v": 288, "provisional": false, "src": "https://www.nvidia.com/en-us/data-center/gb300-nvl72/", "quote": "20 TB | Up to 576 TB/s"},
+  "usable_gib": {"v": 276.6, "provisional": false, "src": "https://github.com/vllm-project/vllm/issues/59765", "quote": "NVIDIA GB300 | SM103 | 152 SMs | 276.6 GiB"},
+  "hbm_tbs": {"v": 8, "provisional": false, "src": "https://www.nvidia.com/en-us/data-center/gb300-nvl72/", "quote": "Up to 576 TB/s"},
+  "nvlink_tbs": {"v": 1.8, "provisional": false, "src": "https://www.nvidia.com/en-us/data-center/gb300-nvl72/", "quote": "130 TB/s"},
+  "nic_gbps": {"v": 800, "provisional": false, "src": "https://www.nvidia.com/en-us/data-center/gb300-nvl72/", "quote": "800 gigabits per second (Gb/s) of network connectivity for each GPU"},
+  "lpddr_tb": {"v": 17, "provisional": false, "src": "https://www.nvidia.com/en-us/data-center/gb300-nvl72/", "quote": "17 TB LPDDR5X | 14 TB/s"},
+  "lpddr_tbs": {"v": 14, "provisional": false, "src": "https://www.nvidia.com/en-us/data-center/gb300-nvl72/", "quote": "17 TB LPDDR5X | 14 TB/s"},
+  "rack_kw": {"v": 140, "provisional": false, "src": "https://www.gigabyte.com/Enterprise/GIGAPOD-Pod-Scale/AI-DLC-POD_NVIDIA-GB300-NVL72", "quote": "up to 140 kW rack power consumption"}
+ },
+ "sglang": {
+  "version": {"v": "0.5.23", "provisional": false, "src": "https://github.com/sgl-project/sglang/releases", "quote": "v0.5.23, 2026-11-02"},
+  "state_mb_tp8": {"v": 54, "provisional": false, "src": "https://www.lmsys.org/blog/2026-07-27-kimi-k3-day0-support/", "quote": "about 54 MB under TP=8, covering all 69 KDA layers"},
+  "default_ratio": {"v": 0.9, "provisional": false, "src": "https://docs.sglang.io/docs/advanced_features/server_arguments", "quote": "--mamba-full-memory-ratio, default 0.9"},
+  "calculator_ratio": {"v": 1.03, "provisional": false, "src": "https://github.com/sgl-project/sglang/blob/main/docs/src/snippets/_kimi_k3_mamba_ratio_calculator.jsx", "quote": "gives 1.03 on decode"},
+  "calculator_len": {"v": 11264, "provisional": false, "src": "https://github.com/sgl-project/sglang/blob/main/docs/src/snippets/_kimi_k3_mamba_ratio_calculator.jsx", "quote": "the calculator's default length is 11,264 tokens"}
+ },
+ "deepseek": {
+  "ratio": {"v": 1.58, "provisional": false, "src": "https://github.com/deepseek-ai/open-infra-index/blob/main/202502OpenSourceWeek/day_6_one_more_thing_deepseekV3R1_inference_system_overview.md", "quote": "Total input tokens: 608B, of which 342B tokens (56.3%) hit the on-disk KV cache."},
+  "speed": {"v": "20 to 22", "provisional": false, "src": "https://github.com/deepseek-ai/open-infra-index/blob/main/202502OpenSourceWeek/day_6_one_more_thing_deepseekV3R1_inference_system_overview.md", "quote": "The average output speed was 20-22 tokens per second"},
+  "nodes": {"v": 226.75, "provisional": false, "src": "https://github.com/deepseek-ai/open-infra-index/blob/main/202502OpenSourceWeek/day_6_one_more_thing_deepseekV3R1_inference_system_overview.md", "quote": "with an average occupancy of 226.75 nodes (each node contains 8 H800 GPUs)"},
+  "gpus": {"v": 1814, "provisional": false, "src": "derived: 226.75 nodes of 8 GPUs, from the DeepSeek overview", "quote": "with an average occupancy of 226.75 nodes (each node contains 8 H800 GPUs)"},
+  "streams": {"v": 92600, "provisional": false, "src": "derived: 168B tokens a day at 21 tokens a second, from the DeepSeek overview", "quote": "at 21 tokens/s about 92,600 streams in flight"}
+ }
+}

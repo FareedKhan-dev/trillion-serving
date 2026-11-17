@@ -1,0 +1,11 @@
+[project]
+name = "trillion-serving"
+version = "0.1.0"
+description = "Serving Kimi K3 to 100,000 parallel streams on GB300 NVL72 racks: a capacity planner, a fleet router and a load generator"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sglang[all]==0.5.23",
+    "aiohttp",
+    "huggingface_hub",
+]

@@ -1,0 +1,455 @@
+{
+ "window_s": {
+  "v": 1800,
+  "provisional": true
+ },
+ "ramp_s": {
+  "v": 600,
+  "provisional": true
+ },
+ "started": {
+  "v": "2026-11-15 02:10:00",
+  "provisional": true
+ },
+ "hosts": {
+  "v": 16,
+  "provisional": true
+ },
+ "procs_per_host": {
+  "v": 8,
+  "provisional": true
+ },
+ "router_replicas": {
+  "v": 24,
+  "provisional": true
+ },
+ "itl_over_step": {
+  "p50": {
+   "v": 1.04,
+   "provisional": true
+  },
+  "mean": {
+   "v": 1.07,
+   "provisional": true
+  },
+  "p90": {
+   "v": 1.19,
+   "provisional": true
+  },
+  "p99": {
+   "v": 1.43,
+   "provisional": true
+  }
+ },
+ "ttft": {
+  "chat": {
+   "p50": {
+    "v": 0.31,
+    "provisional": true
+   },
+   "p90": {
+    "v": 0.52,
+    "provisional": true
+   },
+   "p99": {
+    "v": 0.94,
+    "provisional": true
+   },
+   "mean": {
+    "v": 0.36,
+    "provisional": true
+   }
+  },
+  "agent": {
+   "p50": {
+    "v": 0.62,
+    "provisional": true
+   },
+   "p90": {
+    "v": 1.05,
+    "provisional": true
+   },
+   "p99": {
+    "v": 1.71,
+    "provisional": true
+   },
+   "mean": {
+    "v": 0.71,
+    "provisional": true
+   }
+  },
+  "doc": {
+   "p50": {
+    "v": 0.55,
+    "provisional": true
+   },
+   "p90": {
+    "v": 0.98,
+    "provisional": true
+   },
+   "p99": {
+    "v": 2.21,
+    "provisional": true
+   },
+   "mean": {
+    "v": 0.66,
+    "provisional": true
+   }
+  },
+  "long": {
+   "p50": {
+    "v": 1.92,
+    "provisional": true
+   },
+   "p90": {
+    "v": 3.41,
+    "provisional": true
+   },
+   "p99": {
+    "v": 7.62,
+    "provisional": true
+   },
+   "mean": {
+    "v": 2.27,
+    "provisional": true
+   }
+  },
+  "max": {
+   "p50": {
+    "v": 5.18,
+    "provisional": true
+   },
+   "p90": {
+    "v": 8.94,
+    "provisional": true
+   },
+   "p99": {
+    "v": 19.8,
+    "provisional": true
+   },
+   "mean": {
+    "v": 6.03,
+    "provisional": true
+   }
+  }
+ },
+ "in_flight": {
+  "min": {
+   "v": 99812,
+   "provisional": true
+  },
+  "mean": {
+   "v": 99964,
+   "provisional": true
+  },
+  "max": {
+   "v": 100000,
+   "provisional": true
+  }
+ },
+ "timeline": {
+  "ramp": {
+   "v": [
+    0,
+    9958,
+    20113,
+    29871,
+    40092,
+    49936,
+    60155,
+    69882,
+    80047,
+    89961
+   ],
+   "provisional": true
+  },
+  "window": {
+   "v": [
+    99971,
+    99988,
+    99962,
+    99979,
+    100000,
+    99957,
+    99983,
+    99966,
+    99941,
+    99975,
+    99969,
+    99986,
+    99958,
+    99977,
+    99953,
+    99990,
+    99964,
+    99972,
+    99948,
+    99981,
+    99812,
+    99903,
+    99968,
+    99976,
+    99955,
+    99984,
+    99961,
+    99973,
+    99987,
+    99970
+   ],
+   "provisional": true
+  },
+  "chat_p99": {
+   "v": [
+    0.93,
+    0.92,
+    0.94,
+    0.93,
+    0.95,
+    0.92,
+    0.93,
+    0.94,
+    0.92,
+    0.93,
+    0.97,
+    0.94,
+    0.93,
+    0.92,
+    0.94,
+    0.93,
+    0.95,
+    0.92,
+    0.93,
+    0.94,
+    0.96,
+    0.94,
+    0.94,
+    0.92,
+    0.93,
+    0.94,
+    0.93,
+    0.92,
+    0.94,
+    0.93
+   ],
+   "provisional": true
+  }
+ },
+ "hit_from_hbm": {
+  "v": 0.79,
+  "provisional": true
+ },
+ "secondary_share": {
+  "v": 0.0041,
+  "provisional": true
+ },
+ "failover": {
+  "rack": {
+   "v": "prefill-6",
+   "provisional": true
+  },
+  "down_s": {
+   "v": 94,
+   "provisional": true
+  },
+  "at_min": {
+   "v": 30,
+   "provisional": true
+  }
+ },
+ "burst": {
+  "at_min": {
+   "v": 20,
+   "provisional": true
+  },
+  "extra_max": {
+   "v": 1500,
+   "provisional": true
+  },
+  "seconds": {
+   "v": 60,
+   "provisional": true
+  },
+  "chat_p99_during": {
+   "v": 0.97,
+   "provisional": true
+  },
+  "max_p99_during": {
+   "v": 41.3,
+   "provisional": true
+  }
+ },
+ "eplb": {
+  "before": {
+   "v": 1.31,
+   "provisional": true
+  },
+  "after": {
+   "v": 1.06,
+   "provisional": true
+  },
+  "moved": {
+   "v": 37,
+   "provisional": true
+  },
+  "at_min": {
+   "v": 14,
+   "provisional": true
+  }
+ },
+ "rack_kw": {
+  "decode": {
+   "v": 121.4,
+   "provisional": true
+  },
+  "prefill": {
+   "v": 108.2,
+   "provisional": true
+  }
+ },
+ "errors": {
+  "timeouts": {
+   "v": 0,
+   "provisional": true
+  },
+  "resets": {
+   "v": 37,
+   "provisional": true
+  },
+  "http_503": {
+   "v": 0,
+   "provisional": true
+  }
+ },
+ "goodput_gap_ms": {
+  "v": 80,
+  "provisional": true
+ },
+ "goodput": {
+  "chat": {
+   "v": 0.991,
+   "provisional": true
+  },
+  "agent": {
+   "v": 0.986,
+   "provisional": true
+  },
+  "doc": {
+   "v": 0.994,
+   "provisional": true
+  },
+  "long": {
+   "v": 0.972,
+   "provisional": true
+  },
+  "max": {
+   "v": 0.958,
+   "provisional": true
+  }
+ },
+ "baseline": {
+  "instances_decode": {
+   "v": 72,
+   "provisional": true
+  },
+  "instances_prefill": {
+   "v": 117,
+   "provisional": true
+  },
+  "ratio": {
+   "v": 1.03,
+   "provisional": true
+  },
+  "hit_by_tokens": {
+   "v": 0.063,
+   "provisional": true
+  },
+  "ttft_p50": {
+   "v": 74.2,
+   "provisional": true
+  },
+  "ttft_p99": {
+   "v": 212.6,
+   "provisional": true
+  },
+  "out_tok_s": {
+   "v": 930000.0,
+   "provisional": true
+  },
+  "goodput": {
+   "v": 0.21,
+   "provisional": true
+  }
+ },
+ "ablation": {
+  "class_budgets": {
+   "chat_p99": {
+    "v": 9.7,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.912,
+    "provisional": true
+   },
+   "out_m": {
+    "v": 2.03,
+    "provisional": true
+   }
+  },
+  "affinity_routing": {
+   "chat_p99": {
+    "v": 38.4,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.469,
+    "provisional": true
+   },
+   "out_m": {
+    "v": 1.31,
+    "provisional": true
+   }
+  },
+  "lpddr5x_tier": {
+   "chat_p99": {
+    "v": 2.86,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.884,
+    "provisional": true
+   },
+   "out_m": {
+    "v": 1.95,
+    "provisional": true
+   }
+  },
+  "eplb": {
+   "chat_p99": {
+    "v": 0.99,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.951,
+    "provisional": true
+   },
+   "out_m": {
+    "v": 1.84,
+    "provisional": true
+   }
+  },
+  "one_layout": {
+   "chat_p99": {
+    "v": 1.12,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.938,
+    "provisional": true
+   },
+   "out_m": {
+    "v": 1.71,
+    "provisional": true
+   }
+  }
+ }
+}

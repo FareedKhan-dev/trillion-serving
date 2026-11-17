@@ -1,0 +1,938 @@
+{
+ "window_min": {
+  "v": 30.0,
+  "provisional": true
+ },
+ "ramp_min": {
+  "v": 10.0,
+  "provisional": true
+ },
+ "in_flight": {
+  "min": {
+   "v": 99812,
+   "provisional": true
+  },
+  "mean": {
+   "v": 99964,
+   "provisional": true
+  },
+  "max": {
+   "v": 100000,
+   "provisional": true
+  }
+ },
+ "classes": {
+  "chat": {
+   "tp": {
+    "v": 2,
+    "provisional": true
+   },
+   "streams": {
+    "v": 59978.4,
+    "provisional": true
+   },
+   "itl": {
+    "p50": {
+     "v": 51.34022884048786,
+     "provisional": true
+    },
+    "mean": {
+     "v": 52.82119698011732,
+     "provisional": true
+    },
+    "p90": {
+     "v": 58.74506953863514,
+     "provisional": true
+    },
+    "p99": {
+     "v": 70.5928146556708,
+     "provisional": true
+    }
+   },
+   "ttft": {
+    "p50": {
+     "v": 0.31,
+     "provisional": true
+    },
+    "p90": {
+     "v": 0.52,
+     "provisional": true
+    },
+    "p99": {
+     "v": 0.94,
+     "provisional": true
+    },
+    "mean": {
+     "v": 0.36,
+     "provisional": true
+    }
+   },
+   "arrivals": {
+    "v": 1127.8121480120865,
+    "provisional": true
+   },
+   "requests": {
+    "v": 2030061.8664217556,
+    "provisional": true
+   },
+   "out_tok_s": {
+    "v": 1127812.1480120865,
+    "provisional": true
+   },
+   "hit": {
+    "v": 0.7470703125,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.991,
+    "provisional": true
+   },
+   "ttft_goal": {
+    "v": 1,
+    "provisional": true
+   },
+   "step_ms": {
+    "v": 49.36560465431525,
+    "provisional": true
+   },
+   "floor_ms": {
+    "v": 42.587674504,
+    "provisional": true
+   }
+  },
+  "agent": {
+   "tp": {
+    "v": 8,
+    "provisional": true
+   },
+   "streams": {
+    "v": 24991.0,
+    "provisional": true
+   },
+   "itl": {
+    "p50": {
+     "v": 43.58799732944962,
+     "provisional": true
+    },
+    "mean": {
+     "v": 44.84534340626067,
+     "provisional": true
+    },
+    "p90": {
+     "v": 49.87472771350485,
+     "provisional": true
+    },
+    "p99": {
+     "v": 59.933496327993225,
+     "provisional": true
+    }
+   },
+   "ttft": {
+    "p50": {
+     "v": 0.62,
+     "provisional": true
+    },
+    "p90": {
+     "v": 1.05,
+     "provisional": true
+    },
+    "p99": {
+     "v": 1.71,
+     "provisional": true
+    },
+    "mean": {
+     "v": 0.71,
+     "provisional": true
+    }
+   },
+   "arrivals": {
+    "v": 367.6335644661616,
+    "provisional": true
+   },
+   "requests": {
+    "v": 661740.4160390908,
+    "provisional": true
+   },
+   "out_tok_s": {
+    "v": 551450.3466992424,
+    "provisional": true
+   },
+   "hit": {
+    "v": 0.9130859375,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.986,
+    "provisional": true
+   },
+   "ttft_goal": {
+    "v": 2,
+    "provisional": true
+   },
+   "step_ms": {
+    "v": 41.911535893701554,
+    "provisional": true
+   },
+   "floor_ms": {
+    "v": 34.036478754,
+    "provisional": true
+   }
+  },
+  "doc": {
+   "tp": {
+    "v": 4,
+    "provisional": true
+   },
+   "streams": {
+    "v": 9996.4,
+    "provisional": true
+   },
+   "itl": {
+    "p50": {
+     "v": 33.182622147509115,
+     "provisional": true
+    },
+    "mean": {
+     "v": 34.13981317099496,
+     "provisional": true
+    },
+    "p90": {
+     "v": 37.96857726493831,
+     "provisional": true
+    },
+    "p99": {
+     "v": 45.62610545282504,
+     "provisional": true
+    }
+   },
+   "ttft": {
+    "p50": {
+     "v": 0.55,
+     "provisional": true
+    },
+    "p90": {
+     "v": 0.98,
+     "provisional": true
+    },
+    "p99": {
+     "v": 2.21,
+     "provisional": true
+    },
+    "mean": {
+     "v": 0.66,
+     "provisional": true
+    }
+   },
+   "arrivals": {
+    "v": 287.2544157315139,
+    "provisional": true
+   },
+   "requests": {
+    "v": 517057.94831672503,
+    "provisional": true
+   },
+   "out_tok_s": {
+    "v": 287254.41573151393,
+    "provisional": true
+   },
+   "hit": {
+    "v": 0.7470703125,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.994,
+    "provisional": true
+   },
+   "ttft_goal": {
+    "v": 4,
+    "provisional": true
+   },
+   "step_ms": {
+    "v": 31.906367449527995,
+    "provisional": true
+   },
+   "floor_ms": {
+    "v": 26.147032004,
+    "provisional": true
+   }
+  },
+  "long": {
+   "tp": {
+    "v": 8,
+    "provisional": true
+   },
+   "streams": {
+    "v": 4498.38,
+    "provisional": true
+   },
+   "itl": {
+    "p50": {
+     "v": 43.58799732944962,
+     "provisional": true
+    },
+    "mean": {
+     "v": 44.84534340626067,
+     "provisional": true
+    },
+    "p90": {
+     "v": 49.87472771350485,
+     "provisional": true
+    },
+    "p99": {
+     "v": 59.933496327993225,
+     "provisional": true
+    }
+   },
+   "ttft": {
+    "p50": {
+     "v": 1.92,
+     "provisional": true
+    },
+    "p90": {
+     "v": 3.41,
+     "provisional": true
+    },
+    "p99": {
+     "v": 7.62,
+     "provisional": true
+    },
+    "mean": {
+     "v": 2.27,
+     "provisional": true
+    }
+   },
+   "arrivals": {
+    "v": 48.91633757771699,
+    "provisional": true
+   },
+   "requests": {
+    "v": 88049.40763989057,
+    "provisional": true
+   },
+   "out_tok_s": {
+    "v": 97832.67515543397,
+    "provisional": true
+   },
+   "hit": {
+    "v": 0.9649658203125,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.972,
+    "provisional": true
+   },
+   "ttft_goal": {
+    "v": 20,
+    "provisional": true
+   },
+   "step_ms": {
+    "v": 41.911535893701554,
+    "provisional": true
+   },
+   "floor_ms": {
+    "v": 34.036478754,
+    "provisional": true
+   }
+  },
+  "max": {
+   "tp": {
+    "v": 8,
+    "provisional": true
+   },
+   "streams": {
+    "v": 499.82,
+    "provisional": true
+   },
+   "itl": {
+    "p50": {
+     "v": 43.58799732944962,
+     "provisional": true
+    },
+    "mean": {
+     "v": 44.84534340626067,
+     "provisional": true
+    },
+    "p90": {
+     "v": 49.87472771350485,
+     "provisional": true
+    },
+    "p99": {
+     "v": 59.933496327993225,
+     "provisional": true
+    }
+   },
+   "ttft": {
+    "p50": {
+     "v": 5.18,
+     "provisional": true
+    },
+    "p90": {
+     "v": 8.94,
+     "provisional": true
+    },
+    "p99": {
+     "v": 19.8,
+     "provisional": true
+    },
+    "mean": {
+     "v": 6.03,
+     "provisional": true
+    }
+   },
+   "arrivals": {
+    "v": 5.221650790899026,
+    "provisional": true
+   },
+   "requests": {
+    "v": 9398.971423618246,
+    "provisional": true
+   },
+   "out_tok_s": {
+    "v": 10443.301581798052,
+    "provisional": true
+   },
+   "hit": {
+    "v": 0.97977375,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.958,
+    "provisional": true
+   },
+   "ttft_goal": {
+    "v": 60,
+    "provisional": true
+   },
+   "step_ms": {
+    "v": 41.911535893701554,
+    "provisional": true
+   },
+   "floor_ms": {
+    "v": 34.036478754,
+    "provisional": true
+   }
+  }
+ },
+ "pool_steps_ms": {
+  "tp2": {
+   "hbm": {
+    "v": 42.587674504,
+    "provisional": true
+   },
+   "flops": {
+    "v": 19.451198691555554,
+    "provisional": true
+   },
+   "wire": {
+    "v": 6.7779301503152505,
+    "provisional": true
+   },
+   "step": {
+    "v": 49.36560465431525,
+    "provisional": true
+   }
+  },
+  "tp4": {
+   "hbm": {
+    "v": 26.147032004,
+    "provisional": true
+   },
+   "flops": {
+    "v": 13.718576753777779,
+    "provisional": true
+   },
+   "wire": {
+    "v": 5.759335445527996,
+    "provisional": true
+   },
+   "step": {
+    "v": 31.906367449527995,
+    "provisional": true
+   }
+  },
+  "tp8": {
+   "hbm": {
+    "v": 34.036478754,
+    "provisional": true
+   },
+   "flops": {
+    "v": 27.240341614933335,
+    "provisional": true
+   },
+   "wire": {
+    "v": 7.875057139701552,
+    "provisional": true
+   },
+   "step": {
+    "v": 41.911535893701554,
+    "provisional": true
+   }
+  }
+ },
+ "requests": {
+  "v": 3306308.6098410804,
+  "provisional": true
+ },
+ "arrivals": {
+  "v": 1836.838116578378,
+  "provisional": true
+ },
+ "output_tok_s": {
+  "v": 2074792.8871800748,
+  "provisional": true
+ },
+ "output_m": {
+  "v": 2.0747928871800747,
+  "provisional": true
+ },
+ "input_tok_s": {
+  "v": 43130835.775986716,
+  "provisional": true
+ },
+ "uncached_tok_s": {
+  "v": 3899981.637484271,
+  "provisional": true
+ },
+ "hit_by_tokens": {
+  "v": 0.909577879321884,
+  "provisional": true
+ },
+ "uncached_per_output": {
+  "v": 1.8796968418302589,
+  "provisional": true
+ },
+ "prefill_busy": {
+  "v": 0.9039653475331947,
+  "provisional": true
+ },
+ "prefill_gap_pts": {
+  "v": 15.396534753319468,
+  "provisional": true
+ },
+ "decode_tok_s_gpu": {
+  "v": 3602.07098468763,
+  "provisional": true
+ },
+ "goodput": {
+  "v": 0.9898686376624829,
+  "provisional": true
+ },
+ "goodput_gap_ms": {
+  "v": 80,
+  "provisional": true
+ },
+ "cluster_kw": {
+  "v": 2377.8,
+  "provisional": true
+ },
+ "joules_per_token": {
+  "v": 1.1460421012102817,
+  "provisional": true
+ },
+ "kwh_per_m": {
+  "v": 0.31834502811396714,
+  "provisional": true
+ },
+ "gpu_s_per_1k": {
+  "v": 0.7287474375599067,
+  "provisional": true
+ },
+ "fills": {
+  "tp2": {
+   "v": 0.7887272459042597,
+   "provisional": true
+  },
+  "tp4": {
+   "v": 0.4754462088023543,
+   "provisional": true
+  },
+  "tp8": {
+   "v": 0.8749644304860253,
+   "provisional": true
+  }
+ },
+ "baseline": {
+  "instances_decode": {
+   "v": 72,
+   "provisional": true
+  },
+  "instances_prefill": {
+   "v": 117,
+   "provisional": true
+  },
+  "ratio": {
+   "v": 1.03,
+   "provisional": true
+  },
+  "hit_by_tokens": {
+   "v": 0.063,
+   "provisional": true
+  },
+  "ttft_p50": {
+   "v": 74.2,
+   "provisional": true
+  },
+  "ttft_p99": {
+   "v": 212.6,
+   "provisional": true
+  },
+  "out_tok_s": {
+   "v": 930000.0,
+   "provisional": true
+  },
+  "goodput": {
+   "v": 0.21,
+   "provisional": true
+  },
+  "slots": {
+   "v": 518,
+   "provisional": true
+  },
+  "ssm_gib": {
+   "v": 26.17822265625,
+   "provisional": true
+  },
+  "conv_gib": {
+   "v": 0.9203281402587891,
+   "provisional": true
+  },
+  "kv_gib": {
+   "v": 26.409825891852392,
+   "provisional": true
+  },
+  "tokens": {
+   "v": 16410494,
+   "provisional": true
+  },
+  "mean_ctx": {
+   "v": 32539.18,
+   "provisional": true
+  },
+  "per_instance": {
+   "v": 504,
+   "provisional": true
+  },
+  "mamba_usage": {
+   "v": 0.972972972972973,
+   "provisional": true
+  },
+  "token_usage": {
+   "v": 0.999345097106766,
+   "provisional": true
+  },
+  "running": {
+   "v": 36288,
+   "provisional": true
+  },
+  "pool_gib": {
+   "v": 53.50837668836118,
+   "provisional": true
+  },
+  "alone": {
+   "chat": {
+    "held": {
+     "v": 518,
+     "provisional": true
+    },
+    "state_used": {
+     "v": 1.0,
+     "provisional": true
+    },
+    "latent_used": {
+     "v": 0.08042804805266679,
+     "provisional": true
+    }
+   },
+   "agent": {
+    "held": {
+     "v": 328,
+     "provisional": true
+    },
+    "state_used": {
+     "v": 0.6332046332046332,
+     "provisional": true
+    },
+    "latent_used": {
+     "v": 0.9974017844922889,
+     "provisional": true
+    }
+   }
+  },
+  "per_expert": {
+   "v": 9.0,
+   "provisional": true
+  },
+  "waiting": {
+   "v": 63712,
+   "provisional": true
+  },
+  "queue_per_instance": {
+   "v": 885,
+   "provisional": true
+  }
+ },
+ "hit_tiers": {
+  "hbm": {
+   "v": 0.79,
+   "provisional": true
+  },
+  "lpddr": {
+   "v": 0.20999999999999996,
+   "provisional": true
+  }
+ },
+ "failover": {
+  "rack": {
+   "v": "prefill-6",
+   "provisional": true
+  },
+  "down_s": {
+   "v": 94,
+   "provisional": true
+  },
+  "at_min": {
+   "v": 30,
+   "provisional": true
+  },
+  "sessions": {
+   "v": 8040,
+   "provisional": true
+  }
+ },
+ "secondary_share": {
+  "v": 0.0041,
+  "provisional": true
+ },
+ "burst": {
+  "at_min": {
+   "v": 20,
+   "provisional": true
+  },
+  "extra_max": {
+   "v": 1500,
+   "provisional": true
+  },
+  "seconds": {
+   "v": 60,
+   "provisional": true
+  },
+  "chat_p99_during": {
+   "v": 0.97,
+   "provisional": true
+  },
+  "max_p99_during": {
+   "v": 41.3,
+   "provisional": true
+  },
+  "chat_p99_delta_ms": {
+   "v": 30.00000000000003,
+   "provisional": true
+  }
+ },
+ "eplb": {
+  "before": {
+   "v": 1.31,
+   "provisional": true
+  },
+  "after": {
+   "v": 1.06,
+   "provisional": true
+  },
+  "moved": {
+   "v": 37,
+   "provisional": true
+  },
+  "at_min": {
+   "v": 14,
+   "provisional": true
+  }
+ },
+ "errors": {
+  "timeouts": {
+   "v": 0,
+   "provisional": true
+  },
+  "resets": {
+   "v": 37,
+   "provisional": true
+  },
+  "http_503": {
+   "v": 0,
+   "provisional": true
+  }
+ },
+ "ablation": {
+  "class_budgets": {
+   "chat_p99": {
+    "v": 9.7,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.912,
+    "provisional": true
+   },
+   "out_m": {
+    "v": 2.03,
+    "provisional": true
+   }
+  },
+  "affinity_routing": {
+   "chat_p99": {
+    "v": 38.4,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.469,
+    "provisional": true
+   },
+   "out_m": {
+    "v": 1.31,
+    "provisional": true
+   }
+  },
+  "lpddr5x_tier": {
+   "chat_p99": {
+    "v": 2.86,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.884,
+    "provisional": true
+   },
+   "out_m": {
+    "v": 1.95,
+    "provisional": true
+   }
+  },
+  "eplb": {
+   "chat_p99": {
+    "v": 0.99,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.951,
+    "provisional": true
+   },
+   "out_m": {
+    "v": 1.84,
+    "provisional": true
+   }
+  },
+  "one_layout": {
+   "chat_p99": {
+    "v": 1.12,
+    "provisional": true
+   },
+   "goodput": {
+    "v": 0.938,
+    "provisional": true
+   },
+   "out_m": {
+    "v": 1.71,
+    "provisional": true
+   }
+  }
+ },
+ "started": {
+  "v": "2026-11-15 02:10:00",
+  "provisional": true
+ },
+ "router_replicas": {
+  "v": 24,
+  "provisional": true
+ },
+ "hosts": {
+  "v": 16,
+  "provisional": true
+ },
+ "procs_per_host": {
+  "v": 8,
+  "provisional": true
+ },
+ "timeline": {
+  "in_flight": {
+   "v": [
+    0,
+    9958,
+    20113,
+    29871,
+    40092,
+    49936,
+    60155,
+    69882,
+    80047,
+    89961,
+    99971,
+    99988,
+    99962,
+    99979,
+    100000,
+    99957,
+    99983,
+    99966,
+    99941,
+    99975,
+    99969,
+    99986,
+    99958,
+    99977,
+    99953,
+    99990,
+    99964,
+    99972,
+    99948,
+    99981,
+    99812,
+    99903,
+    99968,
+    99976,
+    99955,
+    99984,
+    99961,
+    99973,
+    99987,
+    99970
+   ],
+   "provisional": true
+  },
+  "chat_p99": {
+   "v": [
+    0.93,
+    0.92,
+    0.94,
+    0.93,
+    0.95,
+    0.92,
+    0.93,
+    0.94,
+    0.92,
+    0.93,
+    0.97,
+    0.94,
+    0.93,
+    0.92,
+    0.94,
+    0.93,
+    0.95,
+    0.92,
+    0.93,
+    0.94,
+    0.96,
+    0.94,
+    0.94,
+    0.92,
+    0.93,
+    0.94,
+    0.93,
+    0.92,
+    0.94,
+    0.93
+   ],
+   "provisional": true
+  },
+  "window_from_min": {
+   "v": 10,
+   "provisional": true
+  }
+ }
+}
